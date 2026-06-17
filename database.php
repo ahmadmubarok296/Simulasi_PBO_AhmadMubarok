@@ -13,10 +13,10 @@ class Database {
 
         // Cek koneksi
         if ($this->conn->connect_error) {
-            die("Koneksi gagal: " . $this->conn->connect_error);
+            die();
         } else {
             // Pesan ini akan muncul saat objek dibuat
-            echo "Koneksi ke database berhasil!";
+            echo "";
         }
     }
 }
